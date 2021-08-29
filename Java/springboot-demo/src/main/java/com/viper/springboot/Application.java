@@ -7,13 +7,11 @@ import org.springframework.context.annotation.Import;
 
 
 /**
+ *
+ * SpringBootApplication 注解等于一下三个注解组合
+ * Configuration + @EnableAutoConfiguration + @ComponentScan
  * @author c1rew
  * @create 2021-01-23 10:11
- */
-
-/**
- * @SpringBootApplication 注解等于一下三个注解组合
- * @Configuration + @EnableAutoConfiguration + @ComponentScan
  */
 @SpringBootApplication
 @Import(DroidDataSourceConfig.class)
